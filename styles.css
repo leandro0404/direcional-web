@@ -33,3 +33,15 @@ main {
 .card p {
     color: #666;
 }
+
+/* Estilo para a classe image-container */
+.image-container {
+    display: flex;
+}
+
+/* Estilo para as imagens dentro da classe image-container */
+.image-container img {
+    width: 50%;
+    max-height: 100%;
+    object-fit: contain;
+}
