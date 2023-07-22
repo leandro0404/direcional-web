@@ -74,3 +74,4 @@ window.addEventListener("resize", () => {
     updateCarousel();
     checkCarouselSpace();
 });
+
