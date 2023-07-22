@@ -45,3 +45,113 @@ main {
     max-height: 100%;
     object-fit: contain;
 }
+
+
+
+
+
+
+/* Estilos para a seção de carrossel e título */
+.testimonials-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Adicionado para posicionar as setas */
+}
+
+.testimonials-carousel h2 {
+    color: #333;
+}
+
+/* Estilos para a área do carrossel */
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+
+/* Estilos para os depoimentos */
+.testimonials-wrapper {
+    display: flex;
+    transition: transform 0.5s ease; /* Adicionado para suavizar a transição */
+}
+
+.testimonial {
+    flex: 0 0 100%;
+}
+
+.testimonial h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.testimonial p {
+    color: #666;
+}
+
+/* Estilos para os botões de avanço e voltar */
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 20px;
+}
+
+.next-button {
+    right: 20px;
+}
+
+/* Estilos para a área de paginação */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Estilos para o ponto de página ativa */
+.pagination .active {
+    background-color: #333;
+}
+
+
+.testimonial {
+    padding: 20px; /* Adicionando espaçamento interno (padding) */
+    border: 1px solid #ddd; /* Adicionando uma borda para separar visualmente os cards */
+    background-color: #f9f9f9; /* Adicionando uma cor de fundo para os cards */
+    text-align: justify; /* Justificar o texto dos depoimentos */
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+.testimonial p {
+    color: #666;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 1.6;
+    padding: 50px;
+   
+}
+
+/* Estilo para alinhar o conjunto de depoimentos à esquerda */
+.testimonials-wrapper {
+    text-align: left;
+}
