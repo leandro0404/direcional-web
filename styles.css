@@ -147,9 +147,43 @@ main {
     text-align: justify;
     word-spacing: 2px;
     line-height: 1.6;   
+    margin-right: 60px;
 }
 
 /* Estilo para alinhar o conjunto de depoimentos à esquerda */
 .testimonials-wrapper {
     text-align: left;
 }
+
+
+/* Estilos para a área das imagens */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para cada item de imagem (imagem + título) */
+.image-item {
+    position: relative;
+    margin: 0 10px;
+}
+
+/* Estilos para a imagem */
+.image-item img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para o título */
+.image-item h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco semitransparente */
+    color: #333;
+}
+
