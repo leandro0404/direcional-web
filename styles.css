@@ -146,9 +146,7 @@ main {
     color: #666;
     text-align: justify;
     word-spacing: 2px;
-    line-height: 1.6;
-    padding: 50px;
-   
+    line-height: 1.6;   
 }
 
 /* Estilo para alinhar o conjunto de depoimentos à esquerda */
